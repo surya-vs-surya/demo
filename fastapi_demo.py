@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "it's my first azure depolyment"}
+    return {"message": "it's my first depolyment"}
